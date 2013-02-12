@@ -44,30 +44,4 @@ title: "Contribute"
   track questions. Just tag your question with <code>tower.js</code> or
     <a href="http://stackoverflow.com/questions/tagged/tower">search for questions with that tag</a>.
     Please check to see if your question has already been answered before asking a new one.</p>
-
-    <p>You can also check out our IRC channel at <code>#emberjs</code> on freenode.net.</p>
-</div>
-
-<div class="community section">
-  <h2>Meetups</h2>
-
-  <p>There are a number of different Ember.js meetups around the world.
-    Going to a meetup is a great way to learn more about Ember.js and meet
-    other developers.</p>
-
-  <table class="columns">
-    <tr>
-      <% data.meetups.each do |name, groups| %>
-        <td>
-          <h3><%= name %></h3>
-
-          <ul>
-            <% groups.each do |group| %>
-              <li><%= link_to group.location, group.url %></li>
-            <% end %>
-          </ul>
-        </td>
-      <% end %>
-    </tr>
-  </table>
 </div>
