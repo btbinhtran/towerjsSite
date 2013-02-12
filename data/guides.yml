@@ -1,0 +1,18 @@
+"Tower.js Guides":
+  - title: 'Tower.js Guides'
+    url: 'index.html'
+    skip_sidebar: true
+
+Node.js:
+  - title: "NPM and package.json"
+    url: "nodejs/npm-and-packagejson"
+  - title: "Installing"
+    url: "nodejs/installing"
+
+Application:
+  - title: "Introduction"
+    url: "application"
+  
+Testing:
+  - title: "Test Driven Development (TDD)"
+    url: testing/tdd

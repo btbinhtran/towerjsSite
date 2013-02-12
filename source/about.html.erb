@@ -1,0 +1,40 @@
+---
+title: "About"
+---
+
+<% content_for :head do %>
+  <script type="text/javascript">
+    $(function() {
+      $('#slider').bxSlider({
+        displaySlideQty: 4,
+        moveSlideQty: 4,
+        auto: true,
+        pager: true,
+        speed: 700,
+        pause: 5000
+      });
+
+      // Hack to force proper sizing
+      $('.bx-wrapper, .bx-window').css('width', 940);
+    });
+  </script>
+<% end %>
+
+<div class="about-header-text">
+  <h1>Create web applications that rise above expectations!</h1>
+</div>
+
+<div class="features section">
+  <div class="feature">
+    <img src="/images/about/blah.png" alt="Developer Productivity">
+    <p>Enjoy the developer productivity.</p>
+  </div>
+  <div class="feature">
+    <img src="/images/about/get-started.png" alt="Install instructions">
+    <p>Get Started</p>
+  </div>
+  <div class="feature">
+    <img src="/images/about/towerjs-tutorial.png" alt="Tower.js Tutorial">
+    <p>Get better.</p>
+  </div>
+</div>

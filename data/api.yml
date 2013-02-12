@@ -1,0 +1,7 @@
+---
+project:
+  name: The Tower API
+  description: ! 'The Tower API: a framework for building ambitious web applications'
+  version: 0.5
+  url: http://towerjs.org/
+  sha: v0.5.0
