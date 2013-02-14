@@ -7,7 +7,7 @@ The website for the Tower.js project.
 To get started:
 
 ```
-git clone git://github.com/tower/towerSite.git
+git clone git://github.com/btbinhtran/towerjsSite.git
 cd towerSite
 bundle
 bundle exec middleman
